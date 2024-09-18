@@ -1,3 +1,4 @@
+name: Prettify code
 on: [push]
 
 jobs:
