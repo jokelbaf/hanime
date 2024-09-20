@@ -10,11 +10,13 @@ jobs:
         name: Build Docs
         runs-on: ubuntu-latest
         steps:
-            - name: Switch directory
-              run: cd docs
             - uses: actions/checkout@v4
               with:
                   fetch-depth: 0
+
+            - name: Switch directory
+              run: cd docs
+
             - uses: actions/setup-node@v4
               with:
                   node-version: 20
