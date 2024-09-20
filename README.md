@@ -25,16 +25,19 @@
 Install the library with tool of your choice!
 
 #### npm
+
 ```bash
 npm i hanime
 ```
 
 #### pnpm
+
 ```bash
 pnpm i hanime
 ```
 
 #### yarn
+
 ```bash
 yarn add hanime
 ```
@@ -42,6 +45,7 @@ yarn add hanime
 ## Usage
 
 Here is a simple example of how you can use the library:
+
 ```ts
 import { HanimeClient } from 'hanime';
 
@@ -50,7 +54,9 @@ const loginResult = await client.login('email@example.com', 'password');
 
 console.log('Logged in as', loginResult.user.name);
 ```
+
 This code will have the following output:
+
 ```bash
 Logged in as User
 ```
@@ -62,22 +68,24 @@ The library provides you with a comprehensive [documentation](https://hanime.nek
 ## Contributing
 
 Feel free to contribute, as long as you remember the following simple rules:
-- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/);
-- Follow currently defined file strucutre - there is no need to create new folders under `/src`;
-- Document both public and private methods;
+
+-   Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/);
+-   Follow currently defined file strucutre - there is no need to create new folders under `/src`;
+-   Document both public and private methods;
 
 ### Scripts
 
 The library has some scripts that will help you in case you want to contribute. After you have finished with your code, use them in the following order:
-- **Prettify** - prettify your code to make it better.
-  ```bash
-  npm run prettify
-  ```
-- **Lint** - lint code to check for style issues.
-  ```bash
-  npm run lint
-  ```
-- **Build** - build the library for local testing.
-  ```bash
-  npm run build
-  ```
+
+-   **Prettify** - prettify your code to make it better.
+    ```bash
+    npm run prettify
+    ```
+-   **Lint** - lint code to check for style issues.
+    ```bash
+    npm run lint
+    ```
+-   **Build** - build the library for local testing.
+    ```bash
+    npm run build
+    ```
