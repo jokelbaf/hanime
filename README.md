@@ -27,19 +27,19 @@ Install the library with tool of your choice!
 #### npm
 
 ```bash
-npm i hanime
+npm i @nekolab/hanime
 ```
 
 #### pnpm
 
 ```bash
-pnpm i hanime
+pnpm i @nekolab/hanime
 ```
 
 #### yarn
 
 ```bash
-yarn add hanime
+yarn add @nekolab/hanime
 ```
 
 ## Usage
