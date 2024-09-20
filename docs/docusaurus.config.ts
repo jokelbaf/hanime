@@ -73,11 +73,11 @@ const config: Config = {
                         },
                         {
                             label: 'Library Usage',
-                            to: '/docs/library-usage',
+                            to: '/docs/category/library-usage',
                         },
                         {
                             label: 'Advanced Usage',
-                            to: '/docs/advanced-usage',
+                            to: '/docs/category/advanced-usage',
                         },
                     ],
                 },
