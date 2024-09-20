@@ -1,10 +1,9 @@
 {
-    "name": "hanime",
+    "name": "@nekolab/hanime",
     "version": "0.1.0",
     "description": "Fast and efficient hanime.tv API wrapper written in TypeScript.",
     "main": "dist/index",
     "types": "dist/index",
-    "private": true,
     "files": [
         "dist"
     ],
