@@ -51,7 +51,7 @@ export class RequestsClient {
         };
 
         this.loggingClient.debug(
-            `${method} request to ${path} (${JSON.stringify(headers)}): ${JSON.stringify(body)}`,
+            `${method} request to ${baseUrl}${path} (${JSON.stringify(headers)}): ${JSON.stringify(body)}`,
         );
 
         const rsp = await fetch(`${baseUrl}${path}`, {
