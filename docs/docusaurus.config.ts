@@ -7,8 +7,8 @@ const config: Config = {
     tagline: 'Hanime is fast and efficient hanime.tv API wrapper written in TypeScript.',
     favicon: 'img/favicon.ico',
 
-    url: 'https://jokelbaf.github.io',
-    baseUrl: '/hanime/',
+    url: 'https://hanime.nekolab.app/',
+    baseUrl: '/',
 
     organizationName: 'jokelbaf',
     projectName: 'hanime',
