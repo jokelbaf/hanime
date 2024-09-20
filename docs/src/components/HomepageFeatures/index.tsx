@@ -14,27 +14,20 @@ const FeatureList: FeatureItem[] = [
         image: '/hanime/img/api-icon.png',
         description: (
             <>
-                Hanime API wrapper provides you with all routes and methods available on the official website.
+                Hanime API wrapper provides you with all routes and methods available on the
+                official website.
             </>
         ),
     },
     {
         title: 'Ultimate Speed',
         image: '/hanime/img/speed-icon.png',
-        description: (
-            <>
-                Enjoy fast concurrent requests with fully asynchronous API calls.
-            </>
-        ),
+        description: <>Enjoy fast concurrent requests with fully asynchronous API calls.</>,
     },
     {
         title: 'Built-in Logging',
         image: '/hanime/img/logs-icon.png',
-        description: (
-            <>
-                Use the built-in logging feature to log your API requests and responses.
-            </>
-        ),
+        description: <>Use the built-in logging feature to log your API requests and responses.</>,
     },
 ];
 
