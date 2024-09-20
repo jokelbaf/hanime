@@ -1,0 +1,8 @@
+{
+    "label": "Library Usage",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Usage of every available method in the library"
+    }
+}

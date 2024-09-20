@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+
+import TabItem from '@theme/TabItem';
+import Tabs from '@theme/Tabs';
+
+# Introduction
+
+Hanime provides you with a **Comprehensive documentation** for all your needs. All methods were created by reverse-engineering hanime mobile app and website. API responses might change in the future, so make sure to update the library regularly.
+
+## Getting Started
+
+Get started by **installing hanime** as your project dependency:
+
+<Tabs>
+    <TabItem value="npm" label="npm" default>
+        ```bash npm i hanime ```
+    </TabItem>
+    <TabItem value="yarn" label="yarn" default>
+        ```bash yarn add hanime ```
+    </TabItem>
+    <TabItem value="pnpm" label="pnpm" default>
+        ```bash pnpm i hanime ```
+    </TabItem>
+</Tabs>
+
+Next, you can import the library and start using it:
+
+```ts
+import { HanimeClient } from 'hanime';
+
+const client = new HanimeClient();
+const loginResult = await client.login('email@example.com', 'password');
+
+console.log('Logged in as', loginResult.user.name);
+```
+
+## Features
+
+Currently, the library supports the following features:
+
+-   👤 Login/password authentication without captcha;
+-   📹 Videos search, retrieval and download;
+-   💬 Comments retrieval;
+-   🏠 Home page retrieval;
+-   🪙 Coins retrieval;
+-   📺 User and channel retrieval.
+
+## Planned Features
+
+Here is the list of features that are planned to be implemented in the future:
+
+-   💬 Comments posting and deletion;
+-   🔍 Search, search page, filters;
+-   🔥 Trending and seasons pages;
+-   ✏️ Channel management;
+-   🖼️ Media upload to Hanime CDN;
+-   👑 Hanime premium purchase.

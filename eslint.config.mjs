@@ -5,7 +5,7 @@ import globals from 'globals';
 export default [
     // Ignores
     {
-        ignores: ['**/dist/*'],
+        ignores: ['**/dist/*', '**/.docusaurus/*'],
     },
 
     // External
