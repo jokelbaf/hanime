@@ -9,7 +9,6 @@
     ],
     "scripts": {
         "build": "tsc",
-        "postinstall": "tsc",
         "lint": "npx eslint .",
         "prettify": "npx prettier --write ."
     },
