@@ -61,6 +61,28 @@ This code will have the following output:
 Logged in as User
 ```
 
+## Features
+
+Currently, the library supports the following features:
+
+-   👤 Login/password authentication without captcha;
+-   📹 Videos search, retrieval and download;
+-   💬 Comments retrieval;
+-   🏠 Home page retrieval;
+-   🪙 Coins retrieval;
+-   📺 User and channel retrieval.
+
+## Planned Features
+
+Here is the list of features that are planned to be implemented in the future:
+
+-   💬 Comments posting and deletion;
+-   🔍 Search, search page, filters;
+-   🔥 Trending and seasons pages;
+-   ✏️ Channel management;
+-   🖼️ Media upload to Hanime CDN;
+-   👑 Hanime premium purchase.
+
 ## Documentation
 
 The library provides you with a comprehensive [documentation](https://hanime.nekolab.app) on all methods and features.
