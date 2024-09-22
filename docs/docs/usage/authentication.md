@@ -21,7 +21,7 @@ Later in the documentation we assume you have imported and created HanimeClient,
 Use `login` method of the client to authenticate with email and password:
 
 ```ts
-import { HanimeClient } from 'hanime';
+import { HanimeClient } from '@nekolab/hanime';
 
 const client = new HanimeClient();
 const loginResult = await client.login('email@example.com', 'password');
@@ -43,7 +43,7 @@ console.log('Logged in as', loginResult.user.name);
 If you have a session token, you can directly pass it to hanime client without needing to login:
 
 ```ts
-import { HanimeClient } from 'hanime';
+import { HanimeClient } from '@nekolab/hanime';
 
 const client = new HanimeClient('...');
 const info = await client.getInfo();
@@ -65,7 +65,7 @@ console.log('Logged in as', info.user.name);
 Session tokens are generally valid for a long time, but they may expire. You can get expiration time of the token from client info:
 
 ```ts
-import { HanimeClient } from 'hanime';
+import { HanimeClient } from '@nekolab/hanime';
 
 const client = new HanimeClient('...');
 const info = await client.getInfo();

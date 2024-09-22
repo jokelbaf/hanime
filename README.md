@@ -47,7 +47,7 @@ yarn add @nekolab/hanime
 Here is a simple example of how you can use the library:
 
 ```ts
-import { HanimeClient } from 'hanime';
+import { HanimeClient } from '@nekolab/hanime';
 
 const client = new HanimeClient();
 const loginResult = await client.login('email@example.com', 'password');

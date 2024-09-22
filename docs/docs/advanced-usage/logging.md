@@ -7,7 +7,7 @@ sidebar_position: 1
 Hanime supports logging for debugging purposes out of the box. You can configure logging when creating new client as shown below:
 
 ```ts
-import { HanimeClient } from 'hanime';
+import { HanimeClient } from '@nekolab/hanime';
 
 const client = new HanimeClient(undefined, { enabled: true, level: 'debug' });
 const loginResult = await client.login('email@example.com', 'password');
