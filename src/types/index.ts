@@ -9,5 +9,6 @@ export * from './search';
 export * from './logging';
 export * from './download';
 export * from './channel';
+export * from './premium';
 export * from './achievements';
 export * from './comments';

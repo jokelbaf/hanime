@@ -16,6 +16,7 @@ import {
     ChannelResponse,
     Comments,
     CommentUser,
+    PremiumResponse,
 } from '../types';
 
 /**
@@ -221,5 +222,25 @@ export class HanimeClient {
         const params = new URLSearchParams({ source: 'comments' });
         userIds.forEach((id) => params.append('user_ids[]', id.toString()));
         return await this.reqClient.request(this.BASE_URLS.app, '/users?' + params.toString());
+    }
+
+    /**
+     * Claim Premium
+     * @returns Premium response
+     */
+    public async claimPremium(): Promise<PremiumResponse> {
+        if (!this.info) {
+            this.info = await this.getInfo();
+        }
+        
+        return await this.reqClient.request(
+            this.BASE_URLS.app,
+            '/alt_subscriptions',
+            {
+                deviceInfo: DEVICE_INFO,
+                version: this.info.env.mobileApps.buildNumber,
+            },
+            'POST',
+        );
     }
 }
