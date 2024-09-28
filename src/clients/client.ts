@@ -232,7 +232,7 @@ export class HanimeClient {
         if (!this.info) {
             this.info = await this.getInfo();
         }
-        
+
         return await this.reqClient.request(
             this.BASE_URLS.app,
             '/alt_subscriptions',
