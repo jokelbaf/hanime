@@ -65,23 +65,23 @@ Logged in as User
 
 Currently, the library supports the following features:
 
--   👤 Login/password authentication without captcha;
--   📹 Videos search, retrieval and download;
--   💬 Comments retrieval;
--   🏠 Home page retrieval;
--   🪙 Coins retrieval;
--   📺 User and channel retrieval.
+- 👤 Login/password authentication without captcha;
+- 📹 Videos search, retrieval and download;
+- 💬 Comments retrieval;
+- 🏠 Home page retrieval;
+- 🪙 Coins retrieval;
+- 📺 User and channel retrieval.
 
 ## Planned Features
 
 Here is the list of features that are planned to be implemented in the future:
 
--   💬 Comments posting and deletion;
--   🔍 Search, search page, filters;
--   🔥 Trending and seasons pages;
--   ✏️ Channel management;
--   🖼️ Media upload to Hanime CDN;
--   👑 Hanime premium purchase.
+- 💬 Comments posting and deletion;
+- 🔍 Search, search page, filters;
+- 🔥 Trending and seasons pages;
+- ✏️ Channel management;
+- 🖼️ Media upload to Hanime CDN;
+- 👑 Hanime premium purchase.
 
 ## Documentation
 
@@ -91,23 +91,23 @@ The library provides you with a comprehensive [documentation](https://hanime.nek
 
 Feel free to contribute, as long as you remember the following simple rules:
 
--   Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/);
--   Follow currently defined file strucutre - there is no need to create new folders under `/src`;
--   Document both public and private methods;
+- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/);
+- Follow currently defined file strucutre - there is no need to create new folders under `/src`;
+- Document both public and private methods;
 
 ### Scripts
 
 The library has some scripts that will help you in case you want to contribute. After you have finished with your code, use them in the following order:
 
--   **Prettify** - prettify your code to make it better.
+- **Prettify** - prettify your code to make it better.
     ```bash
     pnpm run prettify
     ```
--   **Lint** - lint code to check for style issues.
+- **Lint** - lint code to check for style issues.
     ```bash
     pnpm run lint
     ```
--   **Build** - build the library for local testing.
+- **Build** - build the library for local testing.
     ```bash
     pnpm run build
     ```
