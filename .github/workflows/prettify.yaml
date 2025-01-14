@@ -11,14 +11,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 21
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm i
 
       - name: Prettify code
-        run: npm run prettify
+        run: pnpm run prettify
 
       - name: Configure git user
         run: |
