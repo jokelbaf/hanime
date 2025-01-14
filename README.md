@@ -101,13 +101,13 @@ The library has some scripts that will help you in case you want to contribute. 
 
 -   **Prettify** - prettify your code to make it better.
     ```bash
-    npm run prettify
+    pnpm run prettify
     ```
 -   **Lint** - lint code to check for style issues.
     ```bash
-    npm run lint
+    pnpm run lint
     ```
 -   **Build** - build the library for local testing.
     ```bash
-    npm run build
+    pnpm run build
     ```
