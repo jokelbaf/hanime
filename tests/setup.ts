@@ -6,5 +6,5 @@ import { HanimeClient } from '@nekolab/hanime';
 export const client = new HanimeClient();
 
 beforeAll(async () => {
-    await client.login(process.env.HANIME_EMAIL!, process.env.HANIME_PASSWORD!);
+    await client.login(process.env.TEST_EMAIL!, process.env.TEST_PASSWORD!);
 });
