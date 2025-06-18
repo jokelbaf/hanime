@@ -1,7 +1,7 @@
 name: Prettify code
 on: [push]
 permissions:
-  actions: write
+  contents: write
 
 jobs:
   prettify:
