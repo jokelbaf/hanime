@@ -111,3 +111,19 @@ The library has some scripts that will help you in case you want to contribute. 
     ```bash
     pnpm run build
     ```
+
+### Docs
+
+This wrapper has a [documentation](https://hanime.nekolab.app), automatically generated and deployed from mdx files using docusaurus. To launch it locally, use the following commands:
+
+```bash
+cd docs
+pnpm install
+pnpm start
+```
+
+After that, you can open your browser and go to [http://localhost:3000](http://localhost:3000) to see the documentation. Any changes you make to the documentation files will be automatically reflected in the browser.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
