@@ -8,7 +8,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc",
+        "test": "vitest run",
+        "build": "tsc -p tsconfig.build.json",
         "lint": "npx eslint .",
         "prettify": "npx prettier --write .",
         "preinstall": "npx only-allow pnpm"
@@ -26,14 +27,17 @@
     "author": "JokelBaf",
     "license": "MIT",
     "devDependencies": {
-        "@eslint/js": "^9.18.0",
+        "@eslint/js": "^9.29.0",
         "@types/eslint__js": "^8.42.3",
-        "@types/node": "^22.10.6",
-        "eslint": "^9.18.0",
+        "@types/node": "^22.15.32",
+        "dotenv": "^16.5.0",
+        "eslint": "^9.29.0",
         "eslint-config-prettier": "^9.1.0",
-        "globals": "^15.14.0",
-        "prettier": "^3.4.2",
-        "typescript": "^5.7.3",
-        "typescript-eslint": "^8.20.0"
+        "globals": "^15.15.0",
+        "jiti": "^2.4.2",
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.34.1",
+        "vitest": "^3.2.4"
     }
 }

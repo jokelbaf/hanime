@@ -1,0 +1,10 @@
+import { HanimeClient } from '@nekolab/hanime';
+
+/**
+ * Client to be used in all tests.
+ */
+export const client = new HanimeClient();
+
+beforeAll(async () => {
+    await client.login(process.env.HANIME_EMAIL!, process.env.HANIME_PASSWORD!);
+});
