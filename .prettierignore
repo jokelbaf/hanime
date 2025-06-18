@@ -3,4 +3,5 @@ dist
 *.js
 *.json
 *.yaml
+*.yml
 docs/docs
