@@ -122,8 +122,8 @@ pnpm install
 pnpm start
 ```
 
-After that, you can open your browser and go to [http://localhost:3000](http://localhost:3000) to see the documentation. Any changes you make to the documentation files will be automatically reflected in the browser.
+After that, you can view it in your browser at [http://localhost:3000](http://localhost:3000). Any changes made to the documentation files will be automatically reflected in the browser.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+The project is licensed under the [MIT License](LICENSE).
